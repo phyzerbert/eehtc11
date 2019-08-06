@@ -25,3 +25,83 @@ Stack trace:
 #3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
 #4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalErrorException))
 #5 /home/eeht in /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php on line 1219
+[06-Aug-2019 17:38:11 Asia/Riyadh] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[06-Aug-2019 17:38:11 Asia/Riyadh] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[06-Aug-2019 17:38:23 Asia/Riyadh] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[06-Aug-2019 17:38:23 Asia/Riyadh] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[06-Aug-2019 17:38:32 Asia/Riyadh] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[06-Aug-2019 17:38:32 Asia/Riyadh] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[06-Aug-2019 17:39:50 Asia/Riyadh] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[06-Aug-2019 17:39:50 Asia/Riyadh] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[06-Aug-2019 17:41:18 Asia/Riyadh] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[06-Aug-2019 17:41:18 Asia/Riyadh] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790

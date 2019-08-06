@@ -1,0 +1,27 @@
+[13-Jun-2019 02:50:06 Asia/Riyadh] PHP Fatal error:  Switch statements may only contain one default clause in /home/eehtc11/public_html/new/storage/framework/views/12014f75aa1de0bb8e1aff042d81f7070729bb70.php on line 232
+[13-Jun-2019 02:50:06 Asia/Riyadh] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php:1219
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/eehtc11/p...', 1219, Array)
+#1 /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php(1219): ob_end_flush()
+#2 /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php(381): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#5 /home/eeht in /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php on line 1219
+[13-Jun-2019 03:20:20 Asia/Riyadh] PHP Fatal error:  Switch statements may only contain one default clause in /home/eehtc11/public_html/new/storage/framework/views/12014f75aa1de0bb8e1aff042d81f7070729bb70.php on line 232
+[13-Jun-2019 03:20:20 Asia/Riyadh] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php:1219
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/eehtc11/p...', 1219, Array)
+#1 /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php(1219): ob_end_flush()
+#2 /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php(381): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#5 /home/eeht in /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php on line 1219
+[13-Jun-2019 03:20:26 Asia/Riyadh] PHP Fatal error:  Switch statements may only contain one default clause in /home/eehtc11/public_html/new/storage/framework/views/12014f75aa1de0bb8e1aff042d81f7070729bb70.php on line 232
+[13-Jun-2019 03:20:26 Asia/Riyadh] PHP Fatal error:  Uncaught ErrorException: ob_end_flush(): failed to send buffer of zlib output compression (0) in /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php:1219
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'ob_end_flush():...', '/home/eehtc11/p...', 1219, Array)
+#1 /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php(1219): ob_end_flush()
+#2 /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php(381): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Symfony\Component\HttpFoundation\Response->send()
+#4 /home/eehtc11/public_html/new/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#5 /home/eeht in /home/eehtc11/public_html/new/vendor/symfony/http-foundation/Response.php on line 1219

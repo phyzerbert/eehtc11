@@ -15,6 +15,8 @@ use App\User;
 use Auth;
 use App\Jobs\SendEmailJob;
 
+use PDF;
+
 class ProjectController extends Controller
 {
     
@@ -301,6 +303,12 @@ class ProjectController extends Controller
         $item->status = $request->get('status');
         $item->save();
         return back()->with('success', 'Responsed Successfully');
+    }
+
+    public function export_request($id){
+        $item = MoneyRequest::find($id);
+        $pdf = PDF::loadView('project.invoice', compact('item'));  
+        return $pdf->download('invoice.pdf');
     }
 
     public function delete_request($id){

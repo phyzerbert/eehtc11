@@ -77,3 +77,6 @@ Route::post('/notificateions/delete', 'HomeController@delete_notification')->nam
 Route::get('/test_email', 'ProjectController@test_email');
 Route::post('/notificateions/delete', 'HomeController@delete_notification')->name('notification.delete');
 
+
+Route::get('/export_request/{id}', 'ProjectController@export_request')->name('export_request');
+

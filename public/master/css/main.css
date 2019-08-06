@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Cairo&display=swap&subset=arabic:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Cairo&display=swap&subset=arabic);
 .clf:after,
 .clf:before {
     content: '';
@@ -16,7 +16,7 @@ html {
 
 body {
     overflow-x: hidden;
-    font-family: Cairo;
+    font-family: 'Cairo';
     background-color: #f2f3fa;
     color: #34495f
 }

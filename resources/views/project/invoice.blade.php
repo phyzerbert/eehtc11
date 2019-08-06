@@ -10,7 +10,13 @@
     <link rel="stylesheet" href="{{ asset('master/vendors/bootstrap/dist/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('master/css/main.css') }}">
     <style>
-        body { font-family: DejaVu Sans, sans-serif; }
+        @font-face {
+            font-family: 'Your custom font name';
+            src: url({{ storage_path('fonts\cairo.woff2') }}) format("truetype");
+            font-weight: 400;
+            font-style: normal;
+        }
+        body { font-family: 'Cairo', sans-serif; }
     </style>
 </head>
 

@@ -320,6 +320,4 @@ class ProjectController extends Controller
     public function test_email(){
         Mail::to("xian1017@outlook.com")->send(new SendNotification("Hi, This is mailtest."));
     }
-
-
 }

@@ -91,6 +91,7 @@
                                         @if ($role == 'admin' || $role == 'accountant')
                                             <td class="text-center py-1">
                                                 <a class="btn btn-sm @if($item->exceed == 1) btn-danger @else btn-info @endif btn-fix btn-response" data-id="{{$item->id}}" data-exceed={{$item->exceed}}><span class="btn-icon text-white"><i class="la la-comment"></i>رد الإدارة</span></a>
+                                                <a class="btn btn-sm btn-primary btn-fix" href="{{route('export_request', $item->id)}}" data-id="{{$item->id}}" ><span class="btn-icon text-white"><i class="la la-file-pdf-o"></i>  Invoice</span></a>
                                             </td>
                                         @endif
                                     </tr>
